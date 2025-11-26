@@ -7,9 +7,9 @@ spec:
   selector:
     app: ip-app
   ports:
-    -name: http
-    - port: 30004          # Service port
-      targetPort: 8080    # Container port
-      nodePort: 30006     # NodePort (must be between 30000–32767)
+    - name: http         # <-- space after dash is required
+      port: 30004        # Service port
+      targetPort: 8080   # Container port
+      nodePort: 30006    # NodePort (30000–32767)
 
 
