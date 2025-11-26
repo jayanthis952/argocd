@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/jayanthis952/argocd.git
     targetRevision: main
-    path: argocd/kube-configs
+    path: kube-configs
 
   destination:
     server: https://kubernetes.default.svc
